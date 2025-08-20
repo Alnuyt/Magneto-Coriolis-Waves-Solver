@@ -2,7 +2,7 @@
 
 This repository contains :
 
-- **`MCWS_Solver.ipynb`** — Jupyter/SageMath **notebook** for building and exploring the toroidal–poloidal (MHD) formulation
+- **`Pol_Tor_Hydro_&_MHD.ipynb`** — Jupyter/SageMath **notebook** for building and exploring the toroidal–poloidal (MHD) formulation
 - **`MCWS.py`** — the full python code to compute the cylindrical magneto-Coriolis modes.
 
 ## Requirements
