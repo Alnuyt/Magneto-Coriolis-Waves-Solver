@@ -9,5 +9,5 @@ This repository contains :
 - Python 3.10+  
 - Jupyter  
 - NumPy, SciPy, Matplotlib  
-- **SageMath** with the Jupyter Sage kernel
+- SageMath
 
