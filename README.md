@@ -52,4 +52,10 @@ Run the notebooks in order:
 - **Derivation of equations:** [Pol_Tor_Hydro_&_MHD.ipynb](Pol_Tor_Hydro_&_MHD.ipynb)  
 - **Numerical solver:** [MC_WAVES_SOLVER.ipynb](MC_WAVES_SOLVER.ipynb)  
 
-Both require standard scientific Python libraries (`numpy`, `scipy`, `matplotlib`, `mpmath`) and, for the derivation notebook, SageMath.  
+Both require standard scientific Python libraries (`numpy`, `scipy`, `matplotlib`, `mpmath`) and, for the derivation notebook, SageMath. 
+
+## Citation
+
+If you use this software, please cite it as:
+
+> Alexandre Nuyt. (2025). Alnuyt/Magneto-Coriolis-Waves-Solver: Spectral-MC-Solver (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.17153734
