@@ -1,6 +1,7 @@
 # Magneto-Coriolis Waves Solver
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17153734.svg)](https://doi.org/10.5281/zenodo.17153734)
- 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 The interaction of rotation, stratification and magnetic fields gives rise to a rich spectrum of waves in geophysical and astrophysical fluids. This project, carried out as part of research work, aims to derive and solve the equations governing **Magneto-Coriolis (MC) waves** inside a cylindrical geometry. Using spectral methods (Chebyshev collocation) and a **toroidal-poloidal** decomposition, we build the eigenvalue problem and compute the corresponding eigenmodes.
 
 The work is organised in two complementary notebooks:
