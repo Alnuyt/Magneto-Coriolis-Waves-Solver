@@ -9,6 +9,8 @@ The work is organised in two complementary notebooks:
 1. **Derivation of equations (SageMath):** symbolic manipulation of the governing equations in cylindrical coordinates, separation into poloidal/toroidal components, and derivation of the final system to be solved.
 2. **Numerical solver (Python):** implementation of the spectral method, construction of matrices, eigenvalue computation, and visualisation of the resulting modes.
 
+![]((m,n)=(2,1)_(nu,eta)=(0.0,0).png)
+
 ---
 
 ## Part 1: Derivation of Poloidal–Toroidal Equations
