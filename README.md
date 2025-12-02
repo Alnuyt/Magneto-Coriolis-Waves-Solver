@@ -14,7 +14,7 @@ The work is organised in two complementary notebooks:
 ---
 
 ## Part 1: Derivation of Poloidal–Toroidal Equations
-In the SageMath notebook **Pol_Tor_Hydro_&_MHD.ipynb**, we perform the algebraic steps needed to derive a well-posed eigenvalue problem:
+In the SageMath notebook **MHD-SageMath**, we perform the algebraic steps needed to derive a well-posed eigenvalue problem:
 
 - Decomposition of the velocity and magnetic fields into poloidal and toroidal potentials.  
 - Application of the governing equations (hydrodynamic and MHD cases).  
@@ -25,7 +25,7 @@ This notebook ensures the mathematical consistency of the model before moving to
 ---
 
 ## Part 2: Numerical Solver for MC Waves
-In the Python notebook **MC_WAVES_SOLVER.ipynb**, we implement the solver step by step:
+In the Python notebook **Macnus**, we implement the solver step by step:
 
 - Construction of Chebyshev differentiation matrices and boundary conditions.  
 - Assembly of the eigenvalue problem matrices based on the derived equations.  
@@ -52,8 +52,8 @@ This project demonstrates how symbolic derivation and numerical computation can 
 ## Use
 Run the notebooks in order:
 
-- **Derivation of equations:** [Pol_Tor_Hydro_&_MHD.ipynb](Pol_Tor_Hydro_&_MHD.ipynb)  
-- **Numerical solver:** [MC_WAVES_SOLVER.ipynb](MC_WAVES_SOLVER.ipynb)  
+- **Derivation of equations:** [MHD-SageMath](Pol_Tor_Hydro_&_MHD.ipynb)  
+- **Numerical solver:** [Macnus](Diffusive-Viscous-MHD/Macnus_SLEPc.ipynb)  
 
 Both require standard scientific Python libraries (`numpy`, `scipy`, `matplotlib`, `mpmath`) and, for the derivation notebook, SageMath. 
 
@@ -61,4 +61,4 @@ Both require standard scientific Python libraries (`numpy`, `scipy`, `matplotlib
 
 If you use this software, please cite it as:
 
-> Alexandre Nuyt. (2025). Alnuyt/Magneto-Coriolis-Waves-Solver: Spectral-MC-Solver (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.17153734
+> Alexandre Nuyt. (2025). Alnuyt/Magneto-Coriolis-Waves-Solver: Spectral-MC-Solver (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.17792073
