@@ -1,5 +1,5 @@
 # Magneto-Coriolis Waves Solver
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17153734.svg)](https://doi.org/10.5281/zenodo.17153734)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17792073.svg)](https://doi.org/10.5281/zenodo.17792073)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 The interaction of rotation, stratification and magnetic fields gives rise to a rich spectrum of waves in geophysical and astrophysical fluids. This project, carried out as part of research work, aims to derive and solve the equations governing **Magneto-Coriolis (MC) waves** inside a cylindrical geometry. Using spectral methods (Chebyshev collocation) and a **toroidal-poloidal** decomposition, we build the eigenvalue problem and compute the corresponding eigenmodes.
@@ -9,7 +9,7 @@ The work is organised in two complementary notebooks:
 1. **Derivation of equations (SageMath):** symbolic manipulation of the governing equations in cylindrical coordinates, separation into poloidal/toroidal components, and derivation of the final system to be solved.
 2. **Numerical solver (Python):** implementation of the spectral method, construction of matrices, eigenvalue computation, and visualisation of the resulting modes.
 
-![]((m,n)=(2,1)_(nu,eta)=(0.0,0).png)
+![](Diffusive-Viscous-MHD/Figures/(m,n)=(2,1)_(nu,eta)=(0.01,0.01).png)
 
 ---
 
